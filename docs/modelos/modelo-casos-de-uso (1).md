@@ -265,7 +265,7 @@ Los apartados 6.1 y 6.2 corresponden a las descripciones detalladas de UC-05 y U
 
 **Inicio:** [El usuario quiere buscar una receta que cumpla sus criterios y consultar su detalle.]
 
-**Escenario principal de éxito:** [1.La persona accede a la seccion de busqueda.                                           2-]
+**Escenario principal de éxito:** [1.La persona accede a la seccion de busqueda.                                           2-El sistema permite indicar los criterios de busqueda.                                                                    3- El usuario selecciona un ingrediente que desea encontrar.                                                               4- El usuario solicita ejecutar.                                                                                           5-El sistema comprueba qe los criterios pueden aplicarse.                                                                  6-El sistema obtiene las recetas que cumplenm los criterios, conforme al acta.                                             7-El sistema presenta las vistasw previas en el orden establecido en el acta.                                              8- El usuario selecciona una receta.                                                                                       9-El sistema presenta su detalle.                                                                                          10- FIn del caso de uso.]
 
 **Extensiones (flujos alternativos):** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
 
