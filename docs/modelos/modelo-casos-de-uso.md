@@ -150,7 +150,7 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 
 ### 6.1 Descripción de un caso
 
-**Identificador y nombre:** [Indica el caso.]
+**Identificador y nombre:** [UC-05]
 
 **Estado de la descripción:** [Indica el nivel de detalle y el alcance desarrollado.]
 
