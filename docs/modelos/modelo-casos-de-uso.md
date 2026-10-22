@@ -154,15 +154,21 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 
 **Estado de la descripción:** [Indica el nivel de detalle y el alcance desarrollado.]
 
-**Objetivo:** [Explica qué resultado pretende obtener el participante.]
+**Objetivo:** [El usuario debe poder modificar los datos de su perfil, .]
 
-**Participantes:** [Indica el actor principal y los actores de apoyo, si los hay.]
+**Participantes:** [Persona usaria registrada.]
 
-**Precondiciones:** [Indica qué se da por cumplido al comenzar. Las comprobaciones que realiza el sistema pertenecen al flujo.]
+**Precondiciones:** [El usuario debe tener una cuenta activa y una sesion iniciada.]
 
-**Inicio:** [Indica qué acción o suceso inicia el caso.]
+**Inicio:** [El usuario solicita actualizar su perfil.]
 
-**Escenario principal:** [Describe la secuencia entre los participantes y el sistema.]
+**Escenario principal:** [-El usuario solicita actualizar su perfil.
+2-El sistema presenta los datos catuales y distingue los valores editables y los fijos.
+3- El usuario edita los valores permitidos.
+4- El usuario solitica guardar los cambbios
+5- El sistema comprueba los datos segun las reglas del acta.
+6- El sistema guarda los datos
+7-El sistema confirma su actualizacion.]
 
 **Alternativas y errores:** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
 
