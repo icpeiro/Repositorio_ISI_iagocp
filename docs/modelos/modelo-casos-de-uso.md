@@ -170,7 +170,9 @@ Repite el esquema siguiente para cada caso seleccionado. Conserva sus referencia
 6- El sistema guarda los datos
 7-El sistema confirma su actualizacion.]
 
-**Alternativas y errores:** [Vincula cada variación a un paso. Indica cómo continúa o termina.]
+**Alternativas y errores:** [5.a. Falta un dato obligatorio o un dato no cumple su formato                                  1. El sistema mod                                                                                                          2.                                                                                                                        
+                                                                                                                          
+4.]
 
 **Postcondiciones:** [Indica qué queda establecido con éxito y qué se conserva o cambia si el caso termina sin éxito o se cancela. Una consulta no requiere modificar datos para alcanzar su objetivo.]
 
