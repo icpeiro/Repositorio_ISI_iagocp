@@ -15,7 +15,7 @@
 
 ## Épica de búsqueda
 
-Como [rol], quiero [capacidad amplia], para [beneficio].
+Como [usuario], quiero [ poder filtrar entre las recetas meidante su nombre, sus ingredientes incluidos, y poder excluir otros], para [encontrar una receta que se adapte a mi].
 
 **Estado:** descompuesta en US-01, US-02 y US-03. Conserva la necesidad conjunta.
 
@@ -25,37 +25,37 @@ Como [rol], quiero [capacidad amplia], para [beneficio].
 
 ## US-01
 
-**Título:** [Capacidad]
+**Título:** [Buscar recetas mediante una palabra o frase]
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como [Usuario], quiero [poder buscar recetas mediante una palabra o frase], para [encontrar la receta que estoy buscando].
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado [una coincidencia en la palabra ], cuando [busco una receta], entonces [mostrar recetas con esa palabra].
+- **CA-02.** Dado [Una busqueda sin resultados], cuando [busco una receta], entonces [no mostrar resultados].
+- **CA-03.** Dado [una receta no validada], cuando [busco una receta], entonces [la receta no aparece].
 
 ## US-02
 
-**Título:** [Capacidad]
+**Título:** [Buscar recetas mediante sus ingredientes incluidos.]
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como [usuario], quiero [poder buscar recetas mediante sus ingredientes incluidos], para [encontrar una receta que se adapte a mi].
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
 ### Criterios de aceptación
 
-- **CA-01.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-02.** Dado [situación], cuando [acción], entonces [resultado observable].
-- **CA-03.** Dado [situación], cuando [acción], entonces [resultado observable].
+- **CA-01.** Dado [Una receta encontrada con todos los ingredientes incluidos], cuando [busco una receta], entonces [mostrar esa receta].
+- **CA-02.** Dado [Una receta solo tiene parte de los ingredientes seleccionados], cuando [busco una receta], entonces [no mostrar esa receta].
+- **CA-03.** Dado [Una receta no tiene ningun indrediente seleccionado], cuando [busco una receta], entonces [no mostrar esa receta].
 
 ## US-03
 
-**Título:** [Capacidad]
+**Título:** [Excluir ingredientes]
 
-Como [rol], quiero [capacidad], para [beneficio].
+Como [usuario], quiero [poder excluir ingredientes], para [poder excluir recetas que incluyan un ingrediente que yo no quiera].
 
 **Fuentes:** UR-08; UC-21; [FR principal]; acta, [apartado pertinente].
 
